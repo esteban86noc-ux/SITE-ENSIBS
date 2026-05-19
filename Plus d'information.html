@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+    <title>Mon site web</title>
+    <link rel="shortcut icon" href="Icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="Cérémonie.js" defer></script>
+</head>
+
+<body>
+<div class ="container_informations">
+    <div class="entete">
+        <div class="logo">
+            <img src="LogoGI.jpg" alt="image parcours" width="150" height="120">
+        </div>
+        <div class="Bouton2">
+            <a href="index.html" class="button2-style">Retour</a>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="site">
+        <h1 style="color: black; font-size: 30px; text-align: left;">Plus d'informations</h1>
+
+        <br>
+
+        <iframe src="https://www-ensibs.univ-ubs.fr/fr/index.html"
+            height="300"
+            width="100%"
+            id="Iframe_ENSIBS">
+        </iframe>
+
+        <p style="color: black; font-size: 18px; text-align: left;">
+        Découvrir plus d'informations sur notre site :
+            <a href="https://www-ensibs.univ-ubs.fr/fr/index.html" target="_blank">ensibs.fr</a>
+        </p>
+    </div>
+
+    <br>
+
+    <h1 style="color: black; font-size: 30px; text-align: left;">Nous contacter</h1>
+    <h3 id="MyfooterJS2">Retrouver nous sur notre site de Lorient.</h3>
+    <button type="button" onclick="Contact()" id="button-myfooter">Retrouvez nous!</button>
+
+    <!--Affichagae de la date et de l'heure par JS-->
+    <h2>Dernière consultation</h2>
+    <button type="button" onclick="Derniere()" id="button-clique">Cliquer ici.</button>
+    <h3 id="clique"></h3>
+    <p id="section"></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon site web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="Icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="Cérémonie.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="button2-style">Retour</a>  
+        <br>
+        <h1 style="color: white;">ENSIBS</h1> 
+    </header>
+    <div class="containerleftright2">
+        <div class ="left2">
+        <nav><!--Définit un ensemble de liens de navigation-->
+            <ul>
+                <li><a href="index.html" class="button2-style">UBS</a></li>
+                <li><a href ="https://www-ensibs.univ-ubs.fr/fr/formations/formations/diplomed-ingenieur-DI/sciences-technologies-sante-STS/diplome-d-ingenieur-genieindustriel-4-0-IGEI00_207.html" class="button2-style">Parcours Classique</a></li>
+                <li><a href="apprentissage.html"class="button2-style">Parcours Alternance</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class ="right2">
+        <article>
+            <h1>Découvrez l'école</h1>
+            <p>Implantée au sein de l'Université de Bretagen Sud, l'École Nationale Supérieur d'Ingénieurs de Bretagne Sud(ENSIBS) propose six spécialités sur Lorient et Vannes.</p>
+            <p>L'ENSIBS est une ecole d'ingenieurs associee au reseau Polytech et toutes ces formations sont habilitees par la Commission des Titres d'Ingenieurs (CTI) et accessibles apres un bac +2 ou apres le bac, grace a nos 2 cycles pre-ingenieurs accessibles avec le concours Geipi Polytech</p>
+            <p>Les eleves suivent une formation equilibree entre cours, travaux diriges et pratiques qui melent enseignements scientifiques, technologiques et en sciences humaines et sociales. L'enseignement met l'accent sur la polyvalence et la pluridisciplinarite. L'ingenieur est forme(e) a la conduite de projet, au management, au travail en reseau.</p>
+        </article>
+        </div>
+    </div>
+    
+    <footer>
+        <p style="color: white;"> Contacter nous : contact@ensibs.fr | Suivez-nous : <a href="https://www.facebook.com/ENSIBS.Lorient.Vannes/">Facebook   </a> | <a href="https://x.com/UBS_universite/status/1371488836350525448">    Twiter </a> </p>
+    </footer>
+    
+</body>
+
+ <style>
+        
+        html,body{
+            height: 100%;
+            margin: 0; /*supprimer les marges*/
+            padding: 0;/*Supprimer les espacements*/
+        }
+        body{
+            font-family: Arial;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+        }
+        header, footer{
+            background-color: #004d00;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header{
+            font-size: 32px;
+        }
+        footer{
+            font-size: 16px;
+        }
+        .container{
+            flex: 1;
+            display: grid; 
+            width: 100%; 
+            margin: 0;       
+        }
+        nav, article{
+            padding: 20px;
+        }
+        nav{
+            background-color: whitesmoke;
+            flex: 1;
+            font-size: 15px;
+        }
+        article{
+            background-color: white;
+            font-size: 18px;
+        }
+        nav ul{
+            list-style-type: none;/*Supprimer les puces ou numéros par défaut(ordonnée ou non)*/
+            padding: 0;
+        }
+        nav ul li{
+            flex: 1;
+        }
+        nav ul li a {
+            color: black;
+            font-size: 18px;
+            padding: 15px;
+            border: 1px solid whitesmoke;
+            border-radius: 5px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;/*la largeur et la hauteur incluent les bordures et les espacements
+            internes*/
+        }
+        nav ul li a:hover{
+            background-color: #004d00;
+            color: white;
+        }
+        .btn {
+            display: inline-block; /*élément en ligne*/
+            padding: 15px 25px;
+            margin: 5px 0;
+            font-size: 18px;
+            text-align: center;
+            color: white;
+            background-color: #004d00;
+            border-radius: 5px;
+            text-decoration: none;/*enlever le soulignement du texte*/
+        }
+        .btn:hover{
+            background-color: #003300;
+        }
+
+        @media (min-width: 600px){/*règle de média apploquée lorsque la largeur de l"écran est d'au moins 600 pixels*/
+            .container{
+                grid-template-columns: 20% 80%;/*deux colonnes*/
+                grid-template-rows: none;/*aucune ligne*/
+            }
+            nav{
+                order: 1;/*Placé en premier dans l'ordre de la grille*/
+            }
+            article{
+            order: 2;    
+            }
+        }
+    </style>
+</html>

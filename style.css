@@ -1,0 +1,431 @@
+.button-style {
+    background-color: rgb(0, 128, 0);
+    border : none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin : 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block; 
+}
+
+
+.containerleftright {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.left, .right {
+    width: 60%;
+    padding: 5px;
+}
+
+.main {
+    display: flex;
+        flex : 1;
+        width: 70%;
+        margin: auto;
+}
+
+.content{
+    width: 80%;
+    padding: 20px;
+}
+
+.sidebar{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;    
+}
+
+.Contacts {
+    margin : 10px;
+    background-color: #f0f0f0;
+    padding : 10px;
+    width: 230px;
+}
+.Information {
+    margin : 10px;
+    background-color: #f0f0f0;
+    padding : 10px;
+    width: 230px;
+}
+.Documents {
+    margin : 10px;
+    background-color: #f0f0f0;
+    padding : 10px;
+    width: 230px;
+}
+.Bouton1 {
+    margin : 10px;
+    background-color: #f0f0f0;
+    padding : 10px;
+    width: 230px;
+}
+.Bouton2 {
+    margin : 10px;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    padding : 10px;
+    width: 230px;
+}
+
+.button2-style {
+    background-color: rgb(0, 128, 0);
+    border : none;
+    color: white;
+    padding: 10px 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 18px;
+    margin : 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    width: 160px; 
+}
+
+.basdepage {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.bannière {
+position: relative;
+text-align: left;
+color: rgb(250, 250, 250);
+}
+
+.text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 42px;
+font-weight: bold;
+
+}
+
+.entête {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo {
+    flex: 1;
+}
+.Recherche {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+p,h3 {
+    color : dimgray;
+    font-size: 18px;
+}
+
+a{
+    color: green;
+    font-size: 18px;
+}
+
+span
+{
+    color: dimgray;
+}
+
+.button-ceremonie {
+    background-color: green;/* Couleur de fond du boutton*/ 
+    color: white;/*Couleur du texte*/ 
+    border: 5px solid black;/*Bordure dorée*/ 
+    padding: 15px 40px;/* Espacement intérieur*/ 
+    text-align: center;/*Alignement du texte*/ 
+    font-size: 18px;/*Taille de la police*/ 
+    font-weight: bold;/* Poids de la police*/ 
+    margin: 10px 60px;/*Marges*/  
+    border-radius: 10px;/* 10: coins arrondis*/ 
+    box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/ 
+    font-family: 'Times New Roman';/* Typographie*/ 
+}
+
+.containerceremony{ 
+width: 70%; 
+margin: auto; /* Centre le contenu horizontalement*/ 
+} 
+
+.container_informations{ 
+    width: 80%; 
+ 
+    margin: 2px auto; /*Centre le contenu*/ 
+    padding: 30px; 
+} 
+table, th, td { 
+    border: 1px solid black; 
+    border-collapse: collapse; /*bordures adjacentes des cellules*/ 
+} 
+th{ 
+    text-align: left; 
+} 
+ 
+/*Table2*/ 
+caption{ 
+    caption-side: top;/*Légende au-dessus du tableau*/ 
+    font-size: 18px; 
+    margin-bottom: 10px;/*Espace entre la légende et le tableau*/ 
+    font-weight: bold; 
+    text-align: center;/*Centrer la légende*/ 
+    color: green; /*Couleur verte*/ 
+} 
+
+.button-admission {
+    display: block;
+  background-color: #ADD8E6; /* Couleur de fond du bouton */
+  color: white; /* Couleur du texte */
+  border: 5px solid black; /* Bordure */
+  padding: 15px 25px; /* Espacement intérieur */
+  margin: 5px auto; /* Centre horizontalement */
+  text-align: center; /* Alignement du texte */
+  font-size: 18px; /* Taille de la police */
+  font-weight: bold; /* Poids de la police */
+  box-shadow: 0 10px 15px black; /* Ombre */
+}
+
+.button-admission:hover {
+    color :rgb(0, 128, 0);
+   } 
+
+
+.bannière-admission {
+    background-color: rgb(100, 193, 224);
+    color: rgb(0, 0, 0);
+    padding: 25px 400px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin : 50px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.site{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.button-découvrir {
+    background-color: rgb(100, 193, 224);/* Couleur de fond du boutton*/ 
+    color: rgb(0, 0, 0);/*Couleur du texte*/ 
+    border: 5px solid black;/*Bordure dorée*/ 
+    padding: 15px 30px;/* Espacement intérieur*/ 
+    text-align: center;/*Alignement du texte*/ 
+    font-size: 18px;/*Taille de la police*/ 
+    font-weight: bold;/* Poids de la police*/ 
+    margin: 10px 50px;/*Marges*/  
+    border-radius: 10px;/* 10: coins arrondis*/ 
+    box-shadow: 0 10px 15px green;/* 0:effet, Ombre*/ 
+    font-family: 'Times New Roman';/* Typographie*/ 
+}
+
+
+#button-myfooter {
+  display: inline-block; 
+  width: fit-content ;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  background: rgb(100, 193, 224);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#button-myfooter:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+#button-clique {
+  display: inline-block; 
+  width: fit-content ;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 4px 8px;
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  background: rgb(100, 193, 224);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#button-clique:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+
+#Iframe_ENSIBS{
+border: 2px solid #2c3e50;
+border-radius: 5px; /*Coins arrondis*/
+}
+#Iframe_ENSIBS_a{
+color: #1980b9; /* Couleur du texte des liens*/
+text-decoration: none; /* Supprime la décoration par défaut (soulignement)*/
+font-weight: bold; /*Texte en gras*/
+}
+#Iframe_ENSIBS_a:hover{
+text-decoration: underline; /*Soulignement du texte au survol*/
+color: green;
+}
+
+body.ubs-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.top-UBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.top-UBS h1 {
+  color: black;
+}
+
+.photo-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  flex-wrap: wrap;
+ background-color: #001f3f; 
+}
+
+.photo-container {
+  width: 300px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description-section {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #001f3f; 
+}
+
+body.ENSIBS-page {
+  background-color: #001f3f; 
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.top-ENSIBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: darkgreen;
+}
+
+.top-ENSIBS h1 {
+  color: white;
+  text-align: center;
+}
+
+.bottom-ENSIBS {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: darkgreen;
+}
+
+
+.containerleftright2 {
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 20% 80%;/*deux colonnes*/
+    grid-template-rows: none;/*aucune ligne*/
+}
+
+.left2 {
+    width: 20%;
+    padding: 5px;
+}
+
+.right2 {
+    width: 80%;
+    padding: 5px;
+}
+
+ .containerMedia {
+      width: 70%;
+      margin: auto; 
+      align-items: center;   
+      text-align: center;
+  }
+  .video-container {
+    display: flex;/*diviser la section */
+    align-items: center;
+}
+.video {
+    flex: 1; /*ajouter une sous-section */
+    margin: 10px;
+}
+#button-média {
+  display: inline-block; /*centrer*/
+  margin: 20px auto;
+  border: black;
+  cursor: pointer;                                                                          
+  background-color: lightblue; 
+  color: black; 
+  border: 5px solid black;
+  border-radius: 6px;
+  padding: 15px 40px; 
+  text-align: center; 
+  font-size: 22px; 
+  font-weight: bold; 
+  font-family: 'Times New Roman'; 
+}
+
